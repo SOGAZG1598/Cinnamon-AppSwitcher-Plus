@@ -25,11 +25,11 @@ This modification enables the **Delete (Supr)** key functionality within the swi
    
 2. **Backup the original:**
    ```bash
-   sudo cp /usr/share/cinnamon/js/ui/appSwitcher/appSwitcher.js /usr/share/cinnamon/js/ui/appSwitcher/appSwitcher.js.bak```
+   sudo cp /usr/share/cinnamon/js/ui/appSwitcher/appSwitcher.js /usr/share/cinnamon/js/ui/appSwitcher/appSwitcher.js.bak
 3. **Replace with this version:**
 Copy the appSwitcher.js from this repository into that directory:
    ```bash
-   sudo cp appSwitcher.js /usr/share/cinnamon/js/ui/appSwitcher/appSwitcher.js```
+   sudo cp appSwitcher.js /usr/share/cinnamon/js/ui/appSwitcher/appSwitcher.js
 
 4. **Restart Cinnamon:**
 Press Alt + F2, type r, and hit Enter.
